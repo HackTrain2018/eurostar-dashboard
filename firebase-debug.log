@@ -1,0 +1,13 @@
+[debug] [2018-11-11T10:30:05.574Z] ----------------------------------------------------------------------
+[debug] [2018-11-11T10:30:05.577Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\inspi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login --reauth
+[debug] [2018-11-11T10:30:05.577Z] CLI Version:   6.0.1
+[debug] [2018-11-11T10:30:05.577Z] Platform:      win32
+[debug] [2018-11-11T10:30:05.577Z] Node Version:  v10.5.0
+[debug] [2018-11-11T10:30:05.579Z] Time:          Sun Nov 11 2018 11:30:05 GMT+0100 (Central European Standard Time)
+[debug] [2018-11-11T10:30:05.579Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+[info] Visit this URL on any device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=575673099&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...

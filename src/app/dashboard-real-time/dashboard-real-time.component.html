@@ -1,0 +1,18 @@
+<div  fxLayout="row wrap">
+    <div *ngFor="let dash of dashCard" fxFlex.lt-sm="100" fxFlex.sm="50" fxFlex.md="25">
+        <cdk-dashcard [dashData]="dash"></cdk-dashcard>
+    </div>
+</div>
+<div fxLayout="row wrap">
+  <tweets [events]="tweets" fxFlex="60" fxFlex.lt-sm="100" fxFlex.sm="100" fxFlex.md="70"></tweets>
+  <cdk-doughnut-graph [labels]="issuesLabels" height="452px" label="OCCURRED ISSUES" [datasets]="issueTypes" fxFlex="40" fxFlex.lt-sm="100" fxFlex.md="30"></cdk-doughnut-graph>
+</div>
+
+<div fxLayout="row wrap">
+  <cdk-line-graph title="DAILY ISSUE TIME DISTRIBUTION" [labels]="dailyDistributionLabels" [datasets]="dailyDistributions" fxFlex="100" fxFlex.lt-sm="100" fxFlex.sm="100"></cdk-line-graph>
+</div>
+
+<div fxLayout="row wrap">
+  <cdk-doughnut-graph [labels]="issusByRouteLabels" height="350px" label="ISSUES BY ROUTE" [datasets]="issuesByRouteDatasets" fxFlex="50" fxFlex.lt-sm="50" fxFlex.md="50"></cdk-doughnut-graph>
+  <cdk-doughnut-graph [labels]="happinessLabels" height="350px" label="HAPPINESS" [datasets]="happinessDatasets" fxFlex="50" fxFlex.lt-sm="50" fxFlex.md="50"></cdk-doughnut-graph>
+</div>

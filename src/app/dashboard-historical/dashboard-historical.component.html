@@ -1,0 +1,24 @@
+<div fxLayout="row" fxLayout="row wrap">
+  <div fxFlex.lt-sm="100" fxFlex.sm="50" fxFlex.md="25">
+    <cdk-round-progressbar [title]="'OUTSTANDINGS'" [current]="'235'" [max]="'5321'" [background]="'#FFF968'" [color]="'#5dff6c'" [boxcolor]="'#1bcb25'"></cdk-round-progressbar>
+  </div>
+  <div fxFlex.lt-sm="100" fxFlex.sm="50" fxFlex.md="25">
+    <cdk-round-progressbar [title]="'GOOD'" [current]="'789'" [max]="'3465'" [background]="'#FFC368'" [color]="'#A7F0FF'" [boxcolor]="'#26A69A'"></cdk-round-progressbar>
+  </div>
+  <div fxFlex.lt-sm="100" fxFlex.sm="50" fxFlex.md="25">
+    <cdk-round-progressbar [title]="'FAIRLY'" [current]="'334'" [max]="'2365'" [background]="'#FFE268'" [color]="'#fffd96'" [boxcolor]="'#f5ca21'"></cdk-round-progressbar>
+  </div>
+
+  <div fxFlex.lt-sm="100" fxFlex.sm="50" fxFlex.md="25">
+    <cdk-round-progressbar [title]="'POOR'" [current]="'90'" [max]="'467'" [background]="'#FFCF68'" [color]="'#f84459'" [boxcolor]="'#b63346'"></cdk-round-progressbar>
+  </div>
+</div>
+
+<div fxLayout="row wrap">
+  <cdk-bar-graph fxFlex="100" fxFlex.lt-sm="100" fxFlex.sm="100"></cdk-bar-graph>
+</div>
+
+<div fxLayout="row" fxLayout="row wrap">
+  <cdk-line-graph title="HAPPINESS MONTHLY DISTRIBUTION" [labels]="labels" [datasets]="datasets" fxFlex="75" fxFlex.lt-sm="100" fxFlex.sm="50"></cdk-line-graph>
+  <cdk-share-price fxFlex="25" fxFlex.lt-sm="100" fxFlex.sm="50"></cdk-share-price>
+</div>
